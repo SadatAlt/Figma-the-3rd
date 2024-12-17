@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+.nav-link{
+    color: #ffff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    transition: 0.4s;
+    margin: 0 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.nav-link:hover{
+    color: #D6A033;
+}
+.contactBtn{
+    padding: 15px 42px;
+    background: #D6A033;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#welcomePart{
+    background: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome{
+    padding-top: 330px;
+    padding-bottom: 175px;
+}
+.welcomeText h3{
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    color: #F7D38A;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.welcomeText h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #F5F2EB;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+.welcomeText p{
+    font-family: "Paprika", system-ui;
+    font-size: 22px;
+    line-height: 36px;
+    color: #BEBBB4;
+    font-weight: 400;
+    padding-right: 160px;
+    margin-bottom: 50px;
+}
+.leftimage{
+    padding-left: 200px;
+}
+#servicepart{
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+.servicePart h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    line-height: 60px;
+    font-size: 48px;
+    color: #363024;
+    margin-bottom: 30px;
+}
+.servicePart p{
+    font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    color: #524D43;
+}
+.secondText h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    line-height: 50px;
+    font-size: 48px;
+    color: #363024;
+    margin-bottom: 30px;
+}
+.secondText p{
+    font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding:0 316px ;
+    margin-bottom: 30px;
+    color: #524D43;
+}
+.thirdText h3{
+    font-family:"Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    color: #363024;
+    font-weight: 700;
+}
+.thirdText h4{
+    font-family:"Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 800;
+    color: #D6A033;
+}
+.thirdText p{
+    font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 278px ;
+    margin-bottom: 30px;
+    color: #524D43;
+}
+#choosingPart{
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+.choosingItem h4{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 800;
+    color: #363024;
+    line-height: 50px;
+    font-size: 48px;
+    padding-bottom: 30px;
+}
+.choosingItem h5{
+    font-family:"Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #363024;
+   padding: 10px 0;
+}
+.choosingItem p{
+    font-family: "Paprika", system-ui;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #524D43;
+    padding-right: 164px ;                 
+    margin-left: 85px;
+}
+.choosingItem img{
+    padding-right: 20px;
+}
+#showcase{
+    background: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 490px;
+}
+.showcasing{
+    padding-top: 120px;
+    padding-bottom: 105px;
+    display: flex;
+}
+.showcasingLeftText{
+    display: flex;
+}
+.showcasingLeftText h3{
+    padding-right: 104px;
+}
+.showcasingLeftText a{
+    padding-right: 54px;
+    font-family:"Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 600;
+    color:#FBFBFA;
+    transition: 0.4s;
+    padding-top: 20px;
+}
+.showcasingLeftText a:hover{
+    color: #D6A033;
+}
+.showcasingLeftText h3{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #FBFBFA;
+}
+.productText{
+    display: flex;
+    justify-content: space-between;
+}
+#product{
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+.productText p{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 800;
+    color: #363024;
+    line-height: 50px;
+    font-size: 48px;
+}
+.productText1 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.productText1{
+    background: #FDF4E1;
+    padding: 20px 15px;
+
+}
+.productItem img{
+    width: 100%;
+    display: block;
+}
+.productText1 p{
+    color: #D6A033;
+    font-size: 24px;
+    line-height: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.productText1 span{
+    color: #363024;
+    font-family: "Paprika", system-ui;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 18px;
+    padding-left: 70px;
+}
+.overlay p{
+    font-size: 14px;
+    line-height: 14px;
+    color: #D6A033;
+
+}
+.overlay i{
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #D6A033;
+}
+.teamText h3{
+    font-family:"Open Sans", sans-serif;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 800;
+    color: #363024;
+    padding-bottom: 20px;
+}
+.teamText p{
+    font-family: "Paprika", system-ui;
+    color: #524D43;
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 70px;
+}
+.teamImage{
+    display: flex;
+    padding-top: 96px;
+}
+.teamImage img{
+    padding-right: 20px;
+}
+#teamPart{
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.testimonialText h3{
+    font-family:"Open Sans", sans-serif;
+    font-weight: 800;
+    color: #363024;
+    line-height: 50px;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.testimonialPart i{
+    color: #D6A033;
+    font-size: 60px;
+}
+.testimonialPart p{
+    font-family: "Paprika", system-ui;
+    color: #524D43;
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 100px;
+}
+.testimonialPart span img{
+width: 100px;
+height: 100px;
+padding-top: 20px;
+
+}
+#blogPart{
+    padding-bottom: 20px;
+}
+.blogHeading h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #363024;
+font-family:"Open Sans", sans-serif;
+padding: 50px 0;}
+.blogItem img{
+    width: 100%;
+    display: block;
+}
+.blogText{
+    background:#F5F2EB;
+    padding: 20px 10px;
+}
+.blogText h5{
+    padding: 10px 0;
+    color: #363024;
+    font-family:"Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 24px;
+    padding-right:152px ;
+}
+.blogText p{
+    font-family: "Paprika", system-ui;
+    color: #524D43;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.blogText h4{
+    font-family:"Open Sans", sans-serif;
+    color: #D6A033;
+    font-size: 24px;
+    line-height: 14px;
+    font-weight: 700;
+}
+.blogText span{
+    color: #363024;
+    font-size: 20px;
+    font-weight: 600;
+}
+.blogText a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #D6A033;
+}
